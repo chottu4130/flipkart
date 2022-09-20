@@ -24,15 +24,12 @@ public class ProductAddToCartTest extends BaseClass{
 	home.getProduct().click();
 	
 	wLib.swithToWindow(driver,pwh);
-	
 	String name = productInfo.getProductName().getText();
-	
 	productInfo.getAddToCartButton().click();
 	productInfo.getHomePageLink().click();
 	productInfo.getCancelButton().click();
 	home.getCartPageLink().click();
 	String pname = cart.getProductName().getText();
-	
 	Assert.assertEquals(name, pname);
 	
 	}
