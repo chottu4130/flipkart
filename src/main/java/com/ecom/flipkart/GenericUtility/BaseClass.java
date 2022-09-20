@@ -14,7 +14,7 @@ import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
 import com.ecom.flipkart.POMReposatory.HomePage;
-import com.ecom.flipkart.POMReposatory.LoginPage;
+
 
 public class BaseClass extends WebDriverUtility{
 	public WebDriver driver;
@@ -29,7 +29,7 @@ public class BaseClass extends WebDriverUtility{
 	public static WebDriver sdriver;
 	
 	@BeforeSuite(alwaysRun = true)
-	//(groups = {"smokeTest","regressionTest"})
+	
 	public void configBS()
 	{
 		

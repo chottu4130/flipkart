@@ -22,7 +22,7 @@ public class ProductsInfoPage extends WebDriverUtility {
 	private WebElement addToCartButton;
 	@FindBy(xpath =  "//img[@class='_2xm1JU']" )
 	private WebElement homePageLink;
-	@FindBy(xpath ="//button[text()='✕']" )
+	@FindBy(xpath ="//button[text()='✕']")
 	private WebElement cancelButton;
 	
 	public WebDriver getDriver() {

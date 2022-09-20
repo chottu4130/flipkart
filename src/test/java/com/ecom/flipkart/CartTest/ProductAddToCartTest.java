@@ -10,15 +10,15 @@ import com.ecom.flipkart.POMReposatory.ProductsInfoPage;
 
 public class ProductAddToCartTest extends BaseClass{
 @Test
-	public void addToCartWinterHeaterTest() {
+	public void addToCartWinterHeaterTest() throws Throwable {
 	HomePage home=new HomePage(driver);
 	ProductsInfoPage productInfo=new ProductsInfoPage(driver);
 	CartPage cart =new CartPage(driver);
 	
-	
+	String val = eLib.getDataFromExcel("Sheet1", 0, 0);
 	
 	home.getCancelButton().click();
-	home.getSearchField().sendKeys("Winter Heater");
+	home.getSearchField().sendKeys(val);
 	home.getSearchButton().click();
 	String pwh = driver.getWindowHandle();
 	home.getProduct().click();

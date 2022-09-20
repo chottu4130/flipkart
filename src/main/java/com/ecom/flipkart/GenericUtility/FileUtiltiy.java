@@ -5,7 +5,7 @@ import java.util.Properties;
 
 /**
  * 
- * @author Chandel
+ * @author nikhil raj
  *
  */
 public class FileUtiltiy implements IConstantUtility {

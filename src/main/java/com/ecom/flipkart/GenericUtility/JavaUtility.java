@@ -7,7 +7,7 @@ import java.util.Random;
 
 /**
  * 
- * @author Chandel
+ * @author nikhil raj
  *
  */
 public class JavaUtility implements IConstantUtility{

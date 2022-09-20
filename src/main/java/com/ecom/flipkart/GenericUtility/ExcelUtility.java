@@ -13,7 +13,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 /**
  * its developed using Apache POi libraries , which used to handle Microsoft Excel sheet
- * @author Chandel
+ * @author nikhil raj
  *
  */
 public class ExcelUtility implements IConstantUtility {

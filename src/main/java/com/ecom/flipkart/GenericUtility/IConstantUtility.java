@@ -4,7 +4,7 @@ public interface IConstantUtility {
 	
 	/**  
 	 * 
-	 * @author Chandel
+	 * @author nikhil raj
 	 * 
 	 * it is used to get all the constant properties 
 	 * 
@@ -22,7 +22,8 @@ public interface IConstantUtility {
 	 */
 	
 	String PropertyFilePath="./src/main/resources/commondata.property";
-	String ExcelFilePath="./data/vtigerdata.xlsx";
+	String ExcelFilePath="./src/main/resources/flipkart.xlsx";
+	
 	String DatabaseUrl="jdbc:mysql://localhost:3306/sdet36";
 	String Username="root";
 	String password="root";

@@ -9,7 +9,7 @@ import com.mysql.jdbc.Driver;
 
 /**
  * 
- * @author Chandel
+ * @author nikhil raj
  *
  */
 public class DataBaseUtility implements IConstantUtility{

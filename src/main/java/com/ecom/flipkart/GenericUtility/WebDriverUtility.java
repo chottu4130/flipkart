@@ -19,7 +19,7 @@ import org.testng.asserts.SoftAssert;
 
 /**
  *  its contains WebDriver specific reusable actions 
- * @author Chandel
+ * @author nikhil raj
  *
  */
 public class WebDriverUtility implements IConstantUtility {
