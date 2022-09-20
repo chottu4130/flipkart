@@ -23,7 +23,7 @@ public class ProductAddToCartTest extends BaseClass{
 	String pwh = driver.getWindowHandle();
 	home.getProduct().click();
 	
-	wLib.swithToWindow(driver, pwh);
+	wLib.swithToWindow(driver,pwh);
 	
 	String name = productInfo.getProductName().getText();
 	
